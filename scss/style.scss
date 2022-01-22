@@ -1,0 +1,242 @@
+@import "nullstyle.scss";
+
+body{
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.hero {
+    overflow: hidden;
+    color: #fff;
+    min-height: 100vh;
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    position: relative;
+}
+.hero__bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(35, 82, 222, 0.5);
+}
+.hero__container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    padding:0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // position: fixed;
+    // top: 0;
+    // left: center;
+    color: inherit;
+    color: #fff;
+    padding-top: 77px; 
+    @media (max-width: 856px) {
+        max-width: 544px;
+    }
+    @media (max-width: 556px) {
+        max-width: 492px;
+    }
+    @media (max-width: 476px) {
+        max-width: 320px;
+        padding-top: 30px;
+    }
+}
+.header__logo {
+    background-image: url(../img/logo/logo.png);
+    background-repeat: no-repeat;
+}
+
+.header__menu {
+    
+}
+.menu {}
+
+.class__list {
+    display: flex;
+    flex-wrap: wrap;
+    @media (max-width: 991px) {
+        padding-left: 50px;  
+     }
+     @media (max-width: 768px) {
+            padding-left: 30px;
+     }
+     @media (max-width: 768px) {
+            padding-left: 30px;
+     }
+     @media (max-width: 418px) {
+            padding-left: 20px;
+     }   
+}
+
+.menu__item {
+    font-size: 18px;
+    line-height: 130%;
+    color: inherit;
+}
+.menu__item:not(:last-child) {
+    margin: 0 35px 0 0 ;  
+}
+.menu__link {
+    color: #fff;
+    @media (max-width: 464px) {
+        font-size: 24px;
+    }
+}
+
+.hero__text {
+    max-width: 620px;
+    line-height: 130%;
+}
+.text__top {
+    margin-left: 10%;
+    font-size: 48px;
+    line-height: 130%;
+    & span{
+        font-size: 90px;
+        line-height: 130%;
+    }
+}
+.text__center {
+    font-size: 90px;
+    line-height: 130%;
+    @media (max-width: 426px) {
+        font-size: 30px;
+    }
+}
+.text__bottom {
+    font-size: 90px;
+    line-height: 130%;
+}
+.hero__see {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.see__text {
+    font-size: 18px;
+    line-height: 130%;
+    color: #fff;
+}
+.see__arrow {
+}
+ @media (max-width: 1199px) {
+
+ }
+ @media (max-width: 991px) {
+    .class__list{
+        padding-left: 70px;
+    }
+ }
+ @media (max-width: 768px) {
+    .class__list{
+        padding-left: 50px;
+    }
+    .hero__text{
+        max-width: 400px;
+    }
+    .hero__text span{
+        font-size: 70px;
+    }
+    .text__top{
+        font-size: 40px;
+    }
+}
+@media (max-width: 480px) {
+    .class__list{
+        padding-left: 20px;
+    }
+    .text__top{
+        font-size: 30px;
+    }
+    .hero__text span{
+        font-size: 50px;
+    }
+}
+@media (max-width: 351px) {
+    // .class__list{
+    //     padding-left: 20px;
+    //     font-size: 20px;
+    // }
+    .header{
+        padding-top: 10px;
+    }
+}
+
+
+
+.page {
+    flex: 1 1 auto;
+}
+.container{
+    
+}
+.page__about {
+}
+.about {
+}
+.about__container {
+    padding: 140px 0;
+}
+.about__title {
+}
+
+.title {
+    font-size: 48px;
+    line-height: 130%;
+    display: inline-block;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        bottom: 5px;
+        left: 0px;
+        width: 100%;
+        height: 15px;
+        background: rgba(35, 82, 222, 0.1);
+    }
+}
+.about__text {
+    padding-top: 60px;
+    p{
+        font-size: 18px;
+        line-height: 160%;
+        margin-bottom: 30px;
+    } 
+}
+.about__text {
+}
+
+
+
+
+.footer{
+    display: flex;
+    height: 153px;
+    background: #343740;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__logo{
+   
+}
+.footer__img{
+        
+}
